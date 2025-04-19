@@ -40,11 +40,11 @@ s.description      = <<-DESC
                       DESC
 
 
-  s.homepage         = 'https://github.com/c-Viorel/MBToastMac'
-  s.screenshots     = 'https://github.com/c-Viorel/MBToastMac/blob/main/Example/MBToast_sample.png?raw=true'
+  s.homepage         = 'https://github.com/freeblow/MBToastMac'
+  s.screenshots     = 'https://github.com/freeblow/MBToastMac/blob/main/Example/MBToast_sample.png?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Viorel P' => 'viorelporumbescu@outlook.com' }
-  s.source           = { :git => 'https://github.com/c-Viorel/MBToastMac.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/freeblow/MBToastMac.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
