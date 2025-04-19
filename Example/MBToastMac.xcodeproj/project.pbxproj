@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73CF13AAC2F72C58FA0458B1 /* Pods_MBToastMac_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDAB4D175D8D6CDED6D72CA /* Pods_MBToastMac_Tests.framework */; };
-		89D343B83E35123381899C4E /* Pods_MBToastMac_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F34B76D8B8E89E0A0F8349 /* Pods_MBToastMac_Example.framework */; };
+		5FA664EDBC7232C5418DE338 /* Pods_MBToastMac_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FEEDF456F8B42F02D3D18A /* Pods_MBToastMac_Example.framework */; };
+		AFDAC5CB77176134B806A1DF /* Pods_MBToastMac_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38C2D859E4BC2772DF509A /* Pods_MBToastMac_Tests.framework */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
 		ED83F68320348A760038D96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED83F68120348A760038D96B /* Main.storyboard */; };
@@ -27,15 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038A0B54C2BB3BD849B0F3E9 /* Pods-MBToastMac_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Tests/Pods-MBToastMac_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		69F34B76D8B8E89E0A0F8349 /* Pods_MBToastMac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBToastMac_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72BE5DB1D90CE90BF507AFE5 /* Pods-MBToastMac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Example.release.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Example/Pods-MBToastMac_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8F76CA530366F46B3326A4A8 /* Pods-MBToastMac_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Tests.release.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Tests/Pods-MBToastMac_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AEDAB4D175D8D6CDED6D72CA /* Pods_MBToastMac_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBToastMac_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19078D530DFBB2ABF00B0571 /* Pods-MBToastMac_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Tests/Pods-MBToastMac_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B38C2D859E4BC2772DF509A /* Pods_MBToastMac_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBToastMac_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B250DBCCC50E236B267DF0D /* Pods-MBToastMac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Example.release.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Example/Pods-MBToastMac_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B0FC11AC38C250F284694828 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD16A16161C1A17DF7A7303E /* MBToastMac.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBToastMac.podspec; path = ../MBToastMac.podspec; sourceTree = "<group>"; };
+		D0389360B48209FEDF792A37 /* Pods-MBToastMac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Example.debug.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Example/Pods-MBToastMac_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FEEDF456F8B42F02D3D18A /* Pods_MBToastMac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBToastMac_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F7AA57BFD4A7D0F0C21BC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E9D148B70D3631AF8D10B69F /* Pods-MBToastMac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Example.debug.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Example/Pods-MBToastMac_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* MBToastMac_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBToastMac_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED83F67F20348A760038D96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F261FED22AD349B7003E996C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FCC3C14D1B01E2ED0BAEE09C /* Pods-MBToastMac_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBToastMac_Tests.release.xcconfig"; path = "Target Support Files/Pods-MBToastMac_Tests/Pods-MBToastMac_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D343B83E35123381899C4E /* Pods_MBToastMac_Example.framework in Frameworks */,
+				5FA664EDBC7232C5418DE338 /* Pods_MBToastMac_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,18 +61,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73CF13AAC2F72C58FA0458B1 /* Pods_MBToastMac_Tests.framework in Frameworks */,
+				AFDAC5CB77176134B806A1DF /* Pods_MBToastMac_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		89968C1E759AFD11FF63A39F /* Frameworks */ = {
+		6B95BD00099FC2A0045DFCFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69F34B76D8B8E89E0A0F8349 /* Pods_MBToastMac_Example.framework */,
-				AEDAB4D175D8D6CDED6D72CA /* Pods_MBToastMac_Tests.framework */,
+				D8FEEDF456F8B42F02D3D18A /* Pods_MBToastMac_Example.framework */,
+				3B38C2D859E4BC2772DF509A /* Pods_MBToastMac_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,10 +80,10 @@
 		9B318AF7A602750BB2144CB8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E9D148B70D3631AF8D10B69F /* Pods-MBToastMac_Example.debug.xcconfig */,
-				72BE5DB1D90CE90BF507AFE5 /* Pods-MBToastMac_Example.release.xcconfig */,
-				038A0B54C2BB3BD849B0F3E9 /* Pods-MBToastMac_Tests.debug.xcconfig */,
-				8F76CA530366F46B3326A4A8 /* Pods-MBToastMac_Tests.release.xcconfig */,
+				D0389360B48209FEDF792A37 /* Pods-MBToastMac_Example.debug.xcconfig */,
+				8B250DBCCC50E236B267DF0D /* Pods-MBToastMac_Example.release.xcconfig */,
+				19078D530DFBB2ABF00B0571 /* Pods-MBToastMac_Tests.debug.xcconfig */,
+				FCC3C14D1B01E2ED0BAEE09C /* Pods-MBToastMac_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 				ED83F68D20348A760038D96B /* Tests */,
 				ED83F67920348A760038D96B /* Products */,
 				9B318AF7A602750BB2144CB8 /* Pods */,
-				89968C1E759AFD11FF63A39F /* Frameworks */,
+				6B95BD00099FC2A0045DFCFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,11 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED83F69320348A760038D96B /* Build configuration list for PBXNativeTarget "MBToastMac_Example" */;
 			buildPhases = (
-				BA61B4C11DAC0C0E15BEC0D1 /* [CP] Check Pods Manifest.lock */,
+				2A9D2C2E9516A6AF743E8171 /* [CP] Check Pods Manifest.lock */,
 				ED83F67420348A760038D96B /* Sources */,
 				ED83F67520348A760038D96B /* Frameworks */,
 				ED83F67620348A760038D96B /* Resources */,
-				FEE033CC8D7C6ABF3CC812F7 /* [CP] Embed Pods Frameworks */,
+				2F019D8E68402C1F5E07947B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,7 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED83F69620348A760038D96B /* Build configuration list for PBXNativeTarget "MBToastMac_Tests" */;
 			buildPhases = (
-				91DF749C78DAE514C10D7284 /* [CP] Check Pods Manifest.lock */,
+				20399E0AFAF667EB51831A1F /* [CP] Check Pods Manifest.lock */,
 				ED83F68620348A760038D96B /* Sources */,
 				ED83F68720348A760038D96B /* Frameworks */,
 				ED83F68820348A760038D96B /* Resources */,
@@ -245,7 +245,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		91DF749C78DAE514C10D7284 /* [CP] Check Pods Manifest.lock */ = {
+		20399E0AFAF667EB51831A1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,7 +267,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA61B4C11DAC0C0E15BEC0D1 /* [CP] Check Pods Manifest.lock */ = {
+		2A9D2C2E9516A6AF743E8171 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,7 +289,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FEE033CC8D7C6ABF3CC812F7 /* [CP] Embed Pods Frameworks */ = {
+		2F019D8E68402C1F5E07947B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -466,19 +466,20 @@
 		};
 		ED83F69420348A760038D96B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9D148B70D3631AF8D10B69F /* Pods-MBToastMac_Example.debug.xcconfig */;
+			baseConfigurationReference = D0389360B48209FEDF792A37 /* Pods-MBToastMac_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MBToastMac/MBToastMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4GKD84VMPR;
 				INFOPLIST_FILE = MBToastMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.MBToastMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -487,19 +488,20 @@
 		};
 		ED83F69520348A760038D96B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72BE5DB1D90CE90BF507AFE5 /* Pods-MBToastMac_Example.release.xcconfig */;
+			baseConfigurationReference = 8B250DBCCC50E236B267DF0D /* Pods-MBToastMac_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MBToastMac/MBToastMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4GKD84VMPR;
 				INFOPLIST_FILE = MBToastMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.MBToastMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -508,7 +510,7 @@
 		};
 		ED83F69720348A760038D96B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 038A0B54C2BB3BD849B0F3E9 /* Pods-MBToastMac_Tests.debug.xcconfig */;
+			baseConfigurationReference = 19078D530DFBB2ABF00B0571 /* Pods-MBToastMac_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,7 +523,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MBToastMac-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -531,7 +533,7 @@
 		};
 		ED83F69820348A760038D96B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F76CA530366F46B3326A4A8 /* Pods-MBToastMac_Tests.release.xcconfig */;
+			baseConfigurationReference = FCC3C14D1B01E2ED0BAEE09C /* Pods-MBToastMac_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,7 +546,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MBToastMac-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

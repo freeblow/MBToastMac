@@ -27,6 +27,7 @@ public protocol Style {
     var cornerRadius: CGFloat { get }
     var font: NSFont { get }
     var backgroundColor: NSColor { get }
+    var textBackgroundColor: NSColor { get }
     var foregroundColor: NSColor { get }
     var fadeInOutDuration: CGFloat { get }
     var fadeInOutDelay: CGFloat { get }
@@ -50,6 +51,7 @@ extension Style {
     public var verticalMargin: CGFloat { return 5 }
     public var cornerRadius: CGFloat { return 6 }
     public var backgroundColor: NSColor { return .black }
+    public var textBackgroundColor: NSColor { return .clear }
     public var foregroundColor: NSColor { return .white }
     public var activitySize: CGSize { return CGSize(width: 100, height: 100) }
     public var fadeInOutDuration: CGFloat { return 1.0 }
@@ -181,7 +183,7 @@ class ToastView: NSView {
         text.fontSize = style.fontSize
         text.alignmentMode = .center
         text.foregroundColor = style.foregroundColor.cgColor
-        text.backgroundColor = style.backgroundColor.cgColor
+        text.backgroundColor = style.textBackgroundColor.cgColor
         text.contentsScale = _layer.contentsScale // For Retina Display
         container.addSublayer(text)
 
@@ -192,9 +194,9 @@ class ToastView: NSView {
             img.position =  img.frame.positionImage(of: container, with: style.horizontalMargin)
             let originalImage = style.icon! // Replace with your NSImage instance
 
-            let tintedResizedImage = originalImage.tinting(with: style.iconTint)
+//            let tintedResizedImage = originalImage.tinting(with: style.iconTint)
 
-            img.contents = tintedResizedImage
+            img.contents = originalImage
             img.contentsGravity = .resizeAspectFill
             container.addSublayer(img)
         }
